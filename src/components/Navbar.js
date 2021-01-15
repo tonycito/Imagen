@@ -5,11 +5,6 @@ const Navbar = () => {
     return (
         <nav>
             <Link to='/'>HOLAAAAAAAAAA</Link>
-            <Link to='/'>COMO sadasdasds?</Link>
-            <Link to='/'>COMO ESTAS?</Link>
-            <Link to='/'>COMO ESTAS?</Link>
-            <Link to='/'>COMO ESTAS?</Link>
-            <Link to='/'>COMO ESTAS?</Link>
         </nav>
     )
 }
