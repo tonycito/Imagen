@@ -8,6 +8,8 @@ const Navbar = () => {
             <Link to='/'>COMO sadasdasds?</Link>
             <Link to='/'>COMO ESTAS?</Link>
             <Link to='/'>COMO ESTAS?</Link>
+            <Link to='/'>COMO ESTAS?</Link>
+            <Link to='/'>COMO ESTAS?</Link>
         </nav>
     )
 }
