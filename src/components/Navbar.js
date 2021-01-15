@@ -5,6 +5,7 @@ const Navbar = () => {
     return (
         <nav>
             <Link to='/'>HOLAAAAAAAAAA</Link>
+            <Link to='/'>COMO ESTAS?</Link>
         </nav>
     )
 }
