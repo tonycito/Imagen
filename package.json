@@ -9,7 +9,6 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
     "autoprefixer": "^9.8.6",
-    "husky": "^4.3.7",
     "postcss": "^7.0.35",
     "pretty-quick": "^3.1.0",
     "react": "^17.0.1",
@@ -45,10 +44,5 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   }
 }

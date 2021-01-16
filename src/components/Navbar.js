@@ -3,9 +3,13 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav>
-      <Link to="/" className=" text-6xl text-red-500">
-        HOLAAAAAAAAAA
+    // Se agrega flex para que ele navbar suba al top de la pagina
+    <nav
+      className="flex justify-between items-center h-16 bg-white text-red relative shadow-sm font-mono"
+      role="navigation"
+    >
+      <Link className="p-4" to="/">
+        TONY
       </Link>
       <div className="px-4 cursor-pointer md:hidden">
         <svg
@@ -22,6 +26,21 @@ const Navbar = () => {
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
+      </div>
+      {/* agregar hidden despues de block es para ocultar el svg de la imagen */}
+      <div className="pr-8 md:block hidden">
+        <Link className="p-4" to="/">
+          Home
+        </Link>
+        <Link className="p-4" to="menu">
+          Menu
+        </Link>
+        <Link className="p-4" to="about">
+          About
+        </Link>
+        <Link className="p-4" to="contact">
+          Contact
+        </Link>
       </div>
     </nav>
   )
