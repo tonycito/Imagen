@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     // Se agrega flex para que ele navbar suba al top de la pagina
     <nav
@@ -11,7 +11,7 @@ const Navbar = () => {
       <Link className="p-4" to="/">
         TONY
       </Link>
-      <div className="px-4 cursor-pointer md:hidden">
+      <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
           className="w-6 h-6"
           fill="none"
