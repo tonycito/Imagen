@@ -5,7 +5,7 @@ const Navbar = ({ toggle }) => {
   return (
     // Se agrega flex para que ele navbar suba al top de la pagina
     <nav
-      className="flex justify-between items-center h-16 bg-white text-red relative shadow-sm font-mono"
+      className="flex flex-row  justify-between items-center h-16 bg-white text-red relative shadow-sm font-mono"
       role="navigation"
     >
       <Link className="p-4" to="/">
@@ -29,16 +29,16 @@ const Navbar = ({ toggle }) => {
       </div>
       {/* agregar hidden despues de block es para ocultar el svg de la imagen */}
       <div className="pr-8 md:block hidden">
-        <Link className="p-4" to="/">
+        <Link className="navbar-menu " to="/">
           Home
         </Link>
-        <Link className="p-4" to="menu">
+        <Link className="navbar-menu" to="menu">
           Menu
         </Link>
-        <Link className="p-4" to="about">
+        <Link className="navbar-menu" to="about">
           About
         </Link>
-        <Link className="p-4" to="contact">
+        <Link className="navbar-menu" to="contact">
           Contact
         </Link>
       </div>

@@ -9,7 +9,7 @@ const Content = () => {
         <img
           src={ImageOne}
           alt="pasta"
-          className="max-h-98 rounded my-20 shadow"
+          className="max-h-98  rounded my-20 shadow"
         />
         <div className="center-content">
           <h2 className="text-2xl mb-2">Tallarines</h2>

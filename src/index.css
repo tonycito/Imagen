@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 .menu-card{
-    @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
+    @apply flex flex-col justify-center items-center my-100 bg-white h-screen font-mono py-40;
 }
 .center-content{
     @apply flex flex-col justify-center items-center ;
+}
+.dropdown-navbar{
+    @apply p-4 border-2 mb-2 border-gray-900 bg-yellow-500 hover:border-indigo-400;
+}
+.navbar-menu{
+    @apply p-4 hover:border-indigo-400;
 }
